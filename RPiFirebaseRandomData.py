@@ -2,10 +2,10 @@ import pyrebase
 import random
 
 config = {
-  "apiKey": "AIzaSyDoIQUbG8K0dZJWwYiXG4yrFD0at68HKbo",
-  "authDomain": "rpi-dht-monitor.firebaseapp.com",
-  "databaseURL": "https://rpi-dht-monitor-default-rtdb.firebaseio.com",
-  "storageBucket": "rpi-dht-monitor.appspot.com"
+  "apiKey": "WEB API KEY",
+  "authDomain": "project-id.firebaseapp.com",
+  "databaseURL": "RealtimeDatabase URL",
+  "storageBucket": "project-id.appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
